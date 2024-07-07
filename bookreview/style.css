@@ -1,0 +1,131 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styles */
+header {
+    background-color: #0056b3; /* Dark blue background */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+	position: relative;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: #004494; /* Slightly darker blue */
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Review Styles */
+.review {
+    background-color: #ffffff; /* White background */
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.review img {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.review h3 {
+    margin-top: 0;
+    color: #003366; /* Dark blue */
+}
+
+.review p {
+    margin-bottom: 0;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-box h2 {
+    text-align: center;
+}
+
+input[type="text"], input[type="password"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #0056b3;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #003366;
+}
+
+/* Recommendations Styles */
+.recommendations {
+    margin-top: 20px;
+    overflow-x: scroll;
+    display: flex;
+    gap: 20px;
+}
+
+.recommendation-item {
+    text-align: center;
+}
+
+.recommendation-item img {
+    width: 150px;
+    height: auto;
+    border: 2px solid #0056b3;
+    border-radius: 5px;
+}
+
+.recommendation-item p {
+    margin: 5px 0 0;
+    color: #0056b3;
+}
